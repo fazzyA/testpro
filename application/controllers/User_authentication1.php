@@ -13,8 +13,8 @@ class User_Authentication extends CI_Controller
         include_once APPPATH."libraries/google-api-php-client/contrib/Google_Oauth2Service.php";
         
         // Google Project API Credentials
-        $clientId = '873933908243-986nvajdk1q4q7v378vk6jion21g9dmk.apps.googleusercontent.com';
-        $clientSecret = 'AF2XhyVIhQ6f_wjez7aP_KEe';
+        $clientId = '873933908243-le87p37ofqdl38tqplatti0vgevum03e.apps.googleusercontent.com';
+        $clientSecret = 'cDRTBtjmFP_yJCdEY03T-RSm';
         $redirectUrl = base_url() . 'user_authentication/';
         
         // Google Client Configuration
