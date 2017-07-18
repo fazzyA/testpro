@@ -1,7 +1,7 @@
  RewriteEngine On
- RewriteBase /proci  
+ RewriteBase /testpro  
 
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond $1 !^(index\.php|images|robots\.txt|assets|css|docs|js|system)
-  RewriteRule ^(.*)$ /proci/index.php?/$1 [L]
+  RewriteRule ^(.*)$ /testpro/index.php?/$1 [L]
